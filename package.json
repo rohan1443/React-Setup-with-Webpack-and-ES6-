@@ -1,0 +1,32 @@
+{
+  "name": "react-setup",
+  "version": "1.0.0",
+  "description": "React Setup(with Webpack and ES6)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan1443/React-Setup-with-Webpack-and-ES6-.git"
+  },
+  "author": "rohan mazumdar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohan1443/React-Setup-with-Webpack-and-ES6-/issues"
+  },
+  "homepage": "https://github.com/rohan1443/React-Setup-with-Webpack-and-ES6-#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
